@@ -1,0 +1,61 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "firstName": "Pual",
+      "lastName": "Titus",
+      "email": "johnsonakanmu@gmail.com",
+      "mobile": "986524",
+      "salary": "$52,235"
+    },
+    {
+      "id": 5,
+      "firstName": "Musa",
+      "lastName": "Sani Bab",
+      "email": "alibaba1254@gmail.com",
+      "mobile": "896585412",
+      "salary": "#525,000"
+    }
+  ],
+  "signup": [
+    {
+      "name": "Johnson ",
+      "email": "johnsonakanmu@gmail.com",
+      "mobile": "070692398",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Bola",
+      "email": "bolaroda23@gmai.com",
+      "mobile": "Roda",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 4
+    },
+    {
+      "name": "",
+      "email": "",
+      "mobile": "",
+      "password": "",
+      "id": 5
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

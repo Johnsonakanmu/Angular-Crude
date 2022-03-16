@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="text-center">
+                    <h1 style="cursor: pointer">Sign Up</h1>
+                    <hr>
+                </div>
+                <form [formGroup]=" signupForm">
+                    <div class="mb-3">
+                        <label class="form-label">Name</label>
+                        <input type="text" formControlName="name" class="form-control" placeholder="Name" />
+                        <span style="color: red; font-size: 14px;" *ngIf="name && name.invalid && name.touched">This
+                            input filed is not valid</span>
+                    </div>
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        <input type="text" formControlName="userName" class="form-control" placeholder="Enter your username:" />
+                        <span style="color: red; font-size: 14px;" *ngIf="userName && userName.invalid && userName.touched">This input filed is
+                            not valid</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Password</label>
+                        <input type="text" formControlName="password" class="form-control" placeholder="Enter your password:" />
+                        <span style="color: red; font-size: 14px;" *ngIf="password && password.invalid && password.touched">This input filed
+                            is not valid</span>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Comfirm Password</label>
+                        <input type="text" formControlName="comfirmPassword" class="form-control" placeholder="Comfirm your password:" />
+                        <span style="color: red; font-size: 14px;" *ngIf="comfirmPassword && comfirmPassword.invalid && comfirmPassword.touched">This input
+                            filed is not valid</span>
+                    </div>
+                    <div>
+                        <button type="submit" [disabled]="!signupForm.valid" class="btn btn-primary">Sign Up</button>
+                        <span class="signup"><a class="mt-2" routerLink="/login" style="color: #999">Already
+                                Registered ? Click to Login</a></span>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
